@@ -1,5 +1,5 @@
 # ARGF_multimodal_fusion
-codes for: "Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion" AAAI-20
+Codes for: "Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion" AAAI-20
 
 Pdf is available at: https://www.aaai.org/ojs/index.php/AAAI/article/view/5347
 
@@ -7,7 +7,7 @@ Pdf is available at: https://www.aaai.org/ojs/index.php/AAAI/article/view/5347
 Some of the codes are borrowed from https://github.com/Justin1904/Low-rank-Multimodal-Fusion. We thank very much for their sharing.
 
 
-The raw data are released in https://github.com/A2Zadeh/CMU-MultimodalSDK and  https://github.com/soujanyaporia/multimodal-sentiment-analysis. If you need to use these data, please cite their corresponding papers. For raw datasets, please download them from: https://github.com/soujanyaporia/multimodal-sentiment-analysis/tree/master/dataset (you need to create a 'dataset' folder and place the downloaded data in it.) We have placed the processed data in pickle format in the folder.
+The raw data are released in https://github.com/A2Zadeh/CMU-MultimodalSDK and  https://github.com/soujanyaporia/multimodal-sentiment-analysis. If you need to use these data, please cite their corresponding papers. For raw datasets, please download them from: https://github.com/soujanyaporia/multimodal-sentiment-analysis/tree/master/dataset (you need to place the downloaded data in the "dataset" folder). We have placed the processed data in pickle format in the main folder.
 
 To run the code: 
 
