@@ -15,7 +15,7 @@ For mosi dataset: python train_mosi_graph.py
 For mosei dataset: python train_mosei_graph.py     
 For iemocap dataset: python train_iemocap_graph.py  
 
-We test the code with python2, and the framework is Pytorch. You can change the defaulted target modality in the code.
+We test the code with python2, and the framework is Pytorch. You can change the defaulted target modality in the code. The code has not been cleaned yet, and we will continue to update it.
 
 If you need to use the codes, please cite our paper:
 
