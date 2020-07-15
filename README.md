@@ -18,10 +18,11 @@ For iemocap dataset: python train_iemocap_graph.py
 We test the code with python2, and the framework is Pytorch. You can change the defaulted target modality in the code. The code has not been cleaned yet, and we will continue to update it.
 
 Re-evaluating the codes:
-Since we lose the best hyperparameters, we are now re-evaluating the model. We found that the best hyperparameter setting for iemocap dataset is:
+Since we lose the best hyperparameters, we are now re-evaluating the model with target modality set to language. We found that the best hyperparameter setting for iemocap dataset is:
+
 ahid = vhid = thid = 100, adr = vdr = tdr = 0.1, lr = 0.001, batch_size = 32, decay = 0.01, alpha = 0.001
 
-You might need to run the codes with different random seeds to obtain the best results.
+Now the best acc and f1 for iemocap is 61.18 and 60.92, respectively (see iemocap_setting.png). You might need to run the codes with different random seeds to obtain the best results.
 
 For the other datasets, we will upload the hyper-parameters soon.
 
