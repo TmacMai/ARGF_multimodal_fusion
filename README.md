@@ -17,6 +17,12 @@ For iemocap dataset: python train_iemocap_graph.py
 
 We test the code with python2, and the framework is Pytorch. You can change the defaulted target modality in the code. The code has not been cleaned yet, and we will continue to update it.
 
+Re-evaluating the codes:
+Since we lose the best hyperparameters, we are now re-evaluating the model. We found that the best hyperparameter setting for iemocap dataset is:
+ahid = vhid = thid = 100, adr = vdr = tdr = 0.1, lr = 0.001, batch_size = 32, decay = 0.01, alpha = 0.001
+
+For the other datasets, we will upload the hyper-parameters soon.
+
 If you need to use the codes, please cite our paper:
 
 Mai, Sijie, Haifeng Hu, and Songlong Xing. "Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 01. 2020.
