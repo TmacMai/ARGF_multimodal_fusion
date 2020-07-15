@@ -21,6 +21,8 @@ Re-evaluating the codes:
 Since we lose the best hyperparameters, we are now re-evaluating the model. We found that the best hyperparameter setting for iemocap dataset is:
 ahid = vhid = thid = 100, adr = vdr = tdr = 0.1, lr = 0.001, batch_size = 32, decay = 0.01, alpha = 0.001
 
+You might need to run the codes with different random seeds to obtain the best results.
+
 For the other datasets, we will upload the hyper-parameters soon.
 
 If you need to use the codes, please cite our paper:
