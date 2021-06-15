@@ -7,7 +7,7 @@ Pdf is available at: https://www.aaai.org/ojs/index.php/AAAI/article/view/5347
 Some of the codes are borrowed from https://github.com/Justin1904/Low-rank-Multimodal-Fusion. We thank very much for their sharing.
 
 
-The raw data are released in https://github.com/A2Zadeh/CMU-MultimodalSDK and  https://github.com/soujanyaporia/multimodal-sentiment-analysis. If you need to use these data, please cite their corresponding papers. For raw datasets, please download them from: https://github.com/soujanyaporia/multimodal-sentiment-analysis/tree/master/dataset (you need to place the downloaded data in the "dataset" folder). We have placed the processed data in pickle format in the main folder.
+The raw data are released in https://github.com/A2Zadeh/CMU-MultimodalSDK and  https://github.com/soujanyaporia/multimodal-sentiment-analysis. If you need to use these data, please cite their corresponding papers. For raw datasets, please download them from: https://github.com/soujanyaporia/multimodal-sentiment-analysis/tree/master/dataset (you need to place the downloaded data in the "dataset" folder). We have placed the processed data in pickle format in the main folder (PLEASE UNRAR THE ).
 
 To run the code: 
 
