@@ -25,7 +25,15 @@ ahid = vhid = thid = 100, adr = vdr = tdr = 0.1, lr = 0.001, batch_size = 32, de
 
 Now the best acc and f1 for iemocap is 61.18 and 60.92, respectively (see iemocap_setting.png). You might need to run the codes with different random seeds to obtain the best results.
 
-For the other datasets, we will upload the hyper-parameters soon.
+The best hyperparameter setting for MOSEI is:
+
+ahid = vhid = thid = 150, adr = vdr = tdr = 0.2, lr = 0.01, batch_size = 16, decay = 0, alpha = 0.1
+
+Now the best acc and f1 for MOSEI is 60.97 and 58.92, respectively (see MOSEI_parameter.png). Remember to set the random seeds as:
+
+np.random_seed(20210820)
+
+torch.manual_seed(20210820)
 
 If you need to use the codes, please cite our paper:
 
